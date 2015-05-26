@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/danger_active" android:endColor="@color/danger_active" />
+    <stroke android:color="@color/danger_border_active" android:width="1dp"/>
+    <corners android:radius="@dimen/btn_radius"/>
+</shape>

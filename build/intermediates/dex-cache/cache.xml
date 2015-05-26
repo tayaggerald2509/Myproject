@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\SWAK-THREE\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\pre-dexed\debug\library-2.4.0-90634cc0ad62995c4269b3bb5a3835da568bc566.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\pre-dexed\debug\classes-08afde561fd155814ffe0b9f6f113145c939691c.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAK-THREE\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\pre-dexed\debug\retrofit-1.9.0-e5d55f2cf9937596ac4f6f85f7d8625fa7fded2c.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAK-THREE\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.0.0\2534c458682c73f5b9871131ab3098d3f987ca3\okio-1.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="02534c458682c73f5b9871131ab3098d3f987ca3">
+        <dex dex="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\pre-dexed\debug\okio-1.0.0-a0660b47bca890b1a49c7a32c65017f3bd870a5f.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\exploded-aar\org.jraf\android-switch-backport\1.4.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5be6154ea591aedafe737f93b365818681a9e305">
+        <dex dex="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\pre-dexed\debug\classes-272a8b31612fb14b30d6ad52c95df16d4aacb11e.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\exploded-aar\com.daimajia.androidanimations\library\1.1.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8cec50fc9cc847bad0d6ed7d93814f4b34744521">
+        <dex dex="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\pre-dexed\debug\classes-435dfa341c637fb24cf551decb10f845a480f342.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\exploded-aar\com.github.castorflex.smoothprogressbar\library\1.0.1-SNAPSHOT\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="18189948ca1bbca4211c909019fe36fb14a5f495">
+        <dex dex="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\pre-dexed\debug\classes-8aedce1e64f1ae31c9fa5bf3c67cdac538d198c6.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\pre-dexed\debug\classes-79fbf35a4dace3ac28a1b92d682b1ccbf062b299.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\pre-dexed\debug\classes-7d1b199852f1c11921da978367fdee708fb2177d.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAK-THREE\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-urlconnection\2.0.0\afe8399d352713b66e597e9670c741d1e60ae923\okhttp-urlconnection-2.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="afe8399d352713b66e597e9670c741d1e60ae923">
+        <dex dex="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-2.0.0-6195d217ae7eeeacbc2254a8ef858164418013cf.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAK-THREE\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\pre-dexed\debug\gson-2.3.1-89ed9d279d380ded11a59024a745090ca2baa190.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAK-THREE\Desktop\SWAK\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3-bf6df512efca6a4548a180a64d5d0615ad80148b.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\exploded-aar\SWAK\ProcessButton\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="06227791b77540cf04fd6b4d407d45cc98e7d549">
+        <dex dex="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\pre-dexed\debug\classes-1e6157309d919eca37e2bcd320ffe4ae51a80c73.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAK-THREE\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.1.0\63735f48b82bcd24cdd33821342428252eb1ca5a\butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\pre-dexed\debug\butterknife-6.1.0-43cd5590c3cad0c222644ec7c28638ee0bfef036.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\exploded-aar\com.doomonafireball.betterpickers\library\1.5.4\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="049eeaf0af623ac62c2786d52cf781320dce7e17">
+        <dex dex="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\pre-dexed\debug\classes-485eb9e6894526328ff9c3804f2e481887189332.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAK-THREE\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-5e8de6f3b7d56cbe59ea568e8c509493dafec7b2.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\exploded-aar\com.daimajia.easing\library\1.0.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d7e947f993bf32a00fcb3078cdda8bb11c930afb">
+        <dex dex="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\pre-dexed\debug\classes-b791adc09b87a109d17002e95be7753ba48cce11.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAK-THREE\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.0.0\4c8d1536dba3812cc1592090dc20c47a4ed3c35e\okhttp-2.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c8d1536dba3812cc1592090dc20c47a4ed3c35e">
+        <dex dex="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\pre-dexed\debug\okhttp-2.0.0-2efa555625888da3ec63abc669d17dd2196b20da.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\exploded-aar\it.neokree\MaterialNavigationDrawer\1.3.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0640bc34b0f25196f82fe1e707a437bd4a405933">
+        <dex dex="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\pre-dexed\debug\classes-5bcd6b314b8881c33d125609567208f6c0709c71.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAK-THREE\.gradle\caches\modules-2\files-2.1\com.michaelpardo\activeandroid\3.1.0-SNAPSHOT\4ab7b0182975bc57c49efc5e0b3baa4a10e4ec08\activeandroid-3.1.0-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4ab7b0182975bc57c49efc5e0b3baa4a10e4ec08">
+        <dex dex="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\pre-dexed\debug\activeandroid-3.1.0-SNAPSHOT-df5c54442f4894c3b3ec09e6f4239388d6c50e4c.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\exploded-aar\com.balysv\material-ripple\1.0.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="aba9317bc403d69d8a571c0a72acfe95698a5db0">
+        <dex dex="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\pre-dexed\debug\classes-d6ef536729dba48d0e53e5556aa923a25f773e98.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAK-THREE\.gradle\caches\modules-2\files-2.1\joda-time\joda-time\2.1\8f79e353ef77da6710e1f10d34fc3698eaaacbca\joda-time-2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8f79e353ef77da6710e1f10d34fc3698eaaacbca">
+        <dex dex="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\pre-dexed\debug\joda-time-2.1-c21ab6cea2749dc09e7071819b84589fca8ce6cb.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-2e6ad859ada495a4f6e65399cd616157e68e17e1.jar" />
+    </item>
+    <item
+        jar="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\exploded-aar\com.etsy.android.grid\library\1.0.5\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8218789edb56bdcfff7da48e892b37460fc707e2">
+        <dex dex="C:\Users\SWAK-THREE\Desktop\SWAK\app\build\intermediates\pre-dexed\debug\classes-ea5c8fdfb3c4876dc1fefe8a6c2d22539f48fe49.jar" />
+    </item>
+
+</items>

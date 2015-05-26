@@ -1,0 +1,80 @@
+<resources>
+
+    <integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#ec971f</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">#b23424</color>
+
+    <color name="text_color">#FFF</color>
+    <color name="text_color_invert">#000</color>
+    <color name="header_border">#e7e7e7</color>
+    <color name="line">#80b7b7b7</color>
+
+    <color name="primary">#428bca</color>
+    <color name="primary_active">#3071a9</color>
+    <color name="primary_disabled">#80428bca</color>
+    <color name="primary_disabled_border">#80357ebd</color>
+    <color name="primary_border">#357ebd</color>
+    <color name="primary_border_active">#285e8e</color>
+
+    <color name="success">#5cb85c</color>
+    <color name="success_active">#449d44</color>
+    <color name="success_disabled">#805cb85c</color>
+    <color name="success_disabled_border">#804cae4c</color>
+    <color name="success_border">#4cae4c</color>
+    <color name="success_border_active">#398439</color>
+
+    <color name="info">#5bc0de</color>
+    <color name="info_active">#31b0d5</color>
+    <color name="info_disabled">#805bc0de</color>
+    <color name="info_disabled_border">#8046b8da</color>
+    <color name="info_border">#46b8da</color>
+    <color name="info_border_active">#269abc</color>
+
+    <color name="warning">#f0ad4e</color>
+    <color name="warning_active">#ec971f</color>
+    <color name="warning_disabled">#80f0ad4e</color>
+    <color name="warning_disabled_border">#80eea236</color>
+    <color name="warning_border">#eea236</color>
+    <color name="warning_border_active">#d58512</color>
+
+    <color name="danger">#d9534f</color>
+    <color name="danger_active">#c9302c</color>
+    <color name="danger_disabled">#80d9534f</color>
+    <color name="danger_disabled_border">#80d43f3a</color>
+    <color name="danger_border">#d43f3a</color>
+    <color name="danger_border_active">#ac2925</color>
+
+    <color name="table_border">#ddd</color>
+    <color name="table_bg">#f9f9f9</color>
+
+    <!--
+        Check Android Theme colors for color reference:
+        https://developer.android.com/training/material/images/ThemeColors.png
+
+        Refer also to Color palette for the UI colors you should use:
+        http://www.google.com/design/spec/style/color.html#color-ui-color-palette
+    -->
+
+    <color name="myPrimaryColor">#2196F3</color>
+    <color name="myPrimaryDarkColor">#1976D2</color>
+    <color name="myAccentColor">#FF4081</color>
+    <color name="myDrawerBackground">#FFF</color>
+    <color name="myWindowBackground">#FFF</color>
+    <color name="myTextPrimaryColor">#212121</color>
+    <color name="myNavigationColor">#000</color>
+
+    <color name="selected_gray">#9e9e9e</color>
+
+    <color name="card_separator">#ffe5e5e5</color>
+    <color name="card_background">#f3f3f3</color>
+    <color name="card_shadow">#ffd6d6d6</color>
+
+</resources>

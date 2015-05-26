@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/primary_disabled" android:endColor="@color/primary_disabled" />
+    <stroke android:color="@color/primary_disabled_border" android:width="1dp"/>
+    <corners android:topRightRadius="@dimen/radius" android:bottomRightRadius="@dimen/radius"/>
+</shape>

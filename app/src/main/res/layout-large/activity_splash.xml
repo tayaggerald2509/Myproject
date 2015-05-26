@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f9f9">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/circular_progress_margin_bottom"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTitle"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:shadowColor="@color/selected_gray"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="16"
+                android:text="We don't just pay."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/text_color_invert"
+                android:textSize="@dimen/abc_text_size_display_3_material" />
+
+            <TextView
+                android:id="@+id/txtSubTitle"
+                style="@style/Base.TextAppearance.AppCompat.Subhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:shadowColor="@color/selected_gray"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="16"
+                android:text="We Analyze."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/text_color_invert"
+                android:textSize="@dimen/abc_text_size_display_2_material" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:shadowColor="@color/selected_gray"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="16"
+                android:text="PayrollAnalytics"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/primary_active"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ph.com.swak.view.CircularProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="@dimen/circular_progress_width"
+        android:layout_height="@dimen/circular_progress_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/circular_progress_margin_bottom"
+        android:indeterminate="true"
+        app:cpb_color="#FFee44"
+        app:cpb_colors="@array/gplus_colors"
+        app:cpb_max_sweep_angle="300"
+        app:cpb_min_sweep_angle="10"
+        app:cpb_rotation_speed="1.0"
+        app:cpb_stroke_width="10dp"
+        app:cpb_sweep_speed="1.0" />
+
+</RelativeLayout>

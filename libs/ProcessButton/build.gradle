@@ -1,0 +1,33 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.14.2'
+    }
+}
+
+apply plugin: 'com.android.library'
+
+repositories {
+    jcenter()
+}
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion '21.1.2'
+
+    final def config
+    config = defaultConfig {
+        minSdkVersion 10
+        targetSdkVersion 21
+    }
+    config
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:21.0.3'
+}
+
+// Used to push in maven
+//apply from: '../maven_push.gradle'

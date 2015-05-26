@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_login"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/primary">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false"
+        android:padding="@dimen/activity_padding_min"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtTitle"
+                    style="@style/Base.TextAppearance.AppCompat.Headline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="We don't just pay."
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/abc_text_size_headline_material" />
+
+                <TextView
+                    android:id="@+id/txtSubTitle"
+                    style="@style/Base.TextAppearance.AppCompat.Subhead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="We Analyze."
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/abc_text_size_large_material" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="PayrollAnalytics"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/primary_active"
+                android:textSize="@dimen/abc_text_size_menu_material"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:id="@+id/rl_login"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:id="@+id/login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_marginLeft="@dimen/activity_margin_min"
+                    android:layout_marginRight="@dimen/activity_margin_min"
+                    android:layout_marginTop="@dimen/login_margin"
+                    android:background="@drawable/background_login"
+                    android:orientation="vertical"
+                    android:padding="@dimen/activity_vertical_margin">
+
+                    <ph.com.swak.view.FormText
+                        android:id="@+id/txtEmpId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="@dimen/activity_margin_min"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:layout_marginRight="@dimen/activity_horizontal_margin"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin"
+                        android:background="@drawable/form_view_selector"
+                        android:ems="10"
+                        android:hint="Employee ID"
+                        android:inputType="textEmailAddress"
+                        android:padding="@dimen/activity_padding_min"
+                        android:singleLine="true"
+                        android:textColor="@color/primary_active"
+                        android:textColorHint="@color/selected_gray"
+                        android:textSize="@dimen/abc_text_size_medium_material" />
+
+                    <ph.com.swak.view.FormText
+                        android:id="@+id/txtPass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:layout_marginRight="@dimen/activity_horizontal_margin"
+                        android:background="@drawable/form_view_selector"
+                        android:ems="10"
+                        android:hint="Password"
+                        android:inputType="textPassword"
+                        android:padding="@dimen/activity_padding_min"
+                        android:singleLine="true"
+                        android:textColor="@color/primary_active"
+                        android:textColorHint="@color/selected_gray"
+                        android:textSize="@dimen/abc_text_size_medium_material"
+                        android:theme="@style/Base.Widget.AppCompat.EditText" />
+
+                    <TextView
+                        android:id="@+id/txtMessage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="@dimen/activity_margin_min"
+                        android:layout_marginRight="@dimen/activity_horizontal_margin"
+                        android:drawableLeft="@drawable/ic_action_highlight_remove"
+                        android:gravity="right|center"
+                        android:text="Invalid Employee ID or Password"
+                        android:textColor="@color/danger"
+                        android:textIsSelectable="false"
+                        android:textSize="@dimen/abc_text_size_caption_material"
+                        android:textStyle="bold"
+                        android:visibility="invisible" />
+
+                    <com.dd.processbutton.iml.ActionProcessButton
+                        android:id="@+id/btnSignIn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:layout_marginRight="@dimen/activity_horizontal_margin"
+                        android:text="Sign In"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/abc_text_size_medium_material"
+                        custom:pb_colorComplete="@color/green_complete"
+                        custom:pb_colorError="@color/danger"
+                        custom:pb_colorNormal="@color/primary"
+                        custom:pb_colorPressed="@color/primary_active"
+                        custom:pb_colorProgress="@color/primary_border"
+                        custom:pb_textComplete="Success"
+                        custom:pb_textProgress="Signing in..." />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/triangle"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/primary_triangle" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

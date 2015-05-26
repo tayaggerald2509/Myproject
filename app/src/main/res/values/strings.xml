@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SWAK</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Splash Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">Swak.com.ph</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+
+    <string name="empty_message">No record found</string>
+    <string name="loading_message">Please wait</string>
+    <string name="error_message">Oops! Unable to connect with the server. \n Check your internet connection and try again</string>
+
+    <string name="empty_button">Try again</string>
+    <string name="loading_button">Cancel</string>
+    <string name="error_button">Try again</string>
+</resources>
